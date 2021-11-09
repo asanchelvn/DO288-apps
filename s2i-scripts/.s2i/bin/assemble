@@ -18,8 +18,8 @@ DATE=`date "+%b %d, %Y @ %H:%M %p"`
 echo "---> Creating info page"
 echo "Page built on $DATE" >> ./info.html
 echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.html
-echo "<BR>Añado un mensaje mio chulo" >> ./info.html
-echo "<BR>El dia º$(date +%Y-%m-%d)" >> ./info.html
+echo "<BR>Añado un mensaje mio chulo el dia <BR>" >> ./info.html
+echo $(date +%Y-%m-%d) >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
