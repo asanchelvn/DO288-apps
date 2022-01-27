@@ -18,6 +18,10 @@ DATE=`date "+%b %d, %Y @ %H:%M %p"`
 echo "---> Creando pagina info"
 echo "Pagina construida el dia $(date +%Y-%m-%d-Semana:%W)" >> ./info.html
 echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.html
+echo "Añado mi prueba"
+echo "Pagina de prueba hecha $DATE " >> test.html
+
+
 
 ######## CUSTOMIZATION ENDS HERE ############
 
